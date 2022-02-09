@@ -1,4 +1,6 @@
 from utilities.write_into_file import write_into_file
+from utilities.parse_available_currencies import find_usd_rate
+
 
 # Task 1
 # Write a Python script to find out which visitor created the most revenue.
