@@ -20,15 +20,18 @@ sqlite is built-in python, for this you just need to import sqlite
 
 For postgres support follow below:
 
+
+Run the following comman in your cli:
+
+pip3 install psycopg2 
+
+OR
+
 Download postgres app from here: https://postgresapp.com/downloads.html
 Follow the installation stesp specified in the link. 
 
-Run the following commands in cli
 
-sudo mkdir -p /etc/paths.d &&
-echo /Applications/Postgres.app/Contents/Versions/latest/bin | sudo tee /etc/paths.d/postgresapp
-
-check out your default settings for the following values:
+Check out your default settings for the following values:
 
 host = hostname
 user = username
