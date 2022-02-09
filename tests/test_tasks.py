@@ -3,7 +3,7 @@ from choose_db import connect_to_db
 # from tasks import
 from tasks import find_max_revenue, find_max_revenue_mobile
 
-conn = connect_to_db('', 'sqlite')
+conn = connect_to_db('sqlite')
 cursor = conn.cursor()
 
 
