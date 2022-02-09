@@ -1,6 +1,8 @@
 import sqlite3
 import psycopg2
 
+#Task 5 - Support Postgres db
+
 def connect_to_db(config, db_type):
     #Assuming config is a dictionary with access credentials as such
     # config = {
