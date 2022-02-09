@@ -1,5 +1,5 @@
 from choose_db import connect_to_db
-from tasks import find_max_revenue, find_max_revenue_mobile
+from tasks import find_max_revenue, find_max_revenue_mobile, store_data_into_file, convert_revenue_to_euro
 
 
 conn = connect_to_db('', 'sqlite')
@@ -13,6 +13,16 @@ def main():
 
     #Task 2
     print(find_max_revenue_mobile(cursor))
+
+    #Task 3
+    print(store_data_into_file(cursor))
+
+    # Task #4
+    print(convert_revenue_to_euro(cursor, 0.88))
+
+    conn.commit()
+    conn.close()
+
 
 
 
