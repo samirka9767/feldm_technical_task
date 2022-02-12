@@ -55,4 +55,4 @@ I have implemented 3 test cases for 1st 3 tasks:
 
 Run tests in /tests folder:
 
-    python3 -m unittest tests/tes
+    python3 -m unittest tests/test_tasks.py
